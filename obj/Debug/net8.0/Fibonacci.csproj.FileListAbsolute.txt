@@ -12,3 +12,4 @@
 /Users/oysteinvikenkallset/Programmering/C#/Fibonacci/Fibonacci/obj/Debug/net8.0/Fibonacci.pdb
 /Users/oysteinvikenkallset/Programmering/C#/Fibonacci/Fibonacci/obj/Debug/net8.0/Fibonacci.genruntimeconfig.cache
 /Users/oysteinvikenkallset/Programmering/C#/Fibonacci/Fibonacci/obj/Debug/net8.0/ref/Fibonacci.dll
+/Users/oysteinvikenkallset/Programmering/C#/Fibonacci/Fibonacci/obj/Debug/net8.0/Fibonacci.sourcelink.json

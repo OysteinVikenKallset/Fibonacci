@@ -1,18 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Numerics;
 
-int length = 10;
-int zeroIndex = 0;
-int firstIndex = 1;
-int currentNumber;
+int length = 100;
+BigInteger previous = 0;
+BigInteger current = 1;
 
-Console.WriteLine(zeroIndex); 
-Console.WriteLine(firstIndex);   
+Console.WriteLine(previous);
+Console.WriteLine(current);
 for (int i = 0; i < length; i++)
 {
-currentNumber = firstIndex + zeroIndex;
-zeroIndex = firstIndex;
-firstIndex = currentNumber;
- Console.WriteLine(currentNumber); 
+    BigInteger next = previous + current;
+    Console.WriteLine(next);
+    previous = current;
+    current = next;
 }
-
